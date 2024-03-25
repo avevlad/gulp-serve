@@ -4,6 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var util = require('gulp-util');
 var connect = require('connect');
+// hi
 var serveStatic = require('serve-static');
 
 module.exports = function (config) {
