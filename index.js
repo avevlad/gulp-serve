@@ -74,5 +74,7 @@ module.exports = function (config) {
     } else {
       var server = http.createServer(app).listen(config.port, config.hostname, serverInitFunction);
     }
+    
+    return server
   };
 };
